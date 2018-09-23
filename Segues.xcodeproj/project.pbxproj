@@ -15,6 +15,8 @@
 		28FD1FD121573833009E986C /* SeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD1FD021573833009E986C /* SeguesTests.swift */; };
 		28FD1FDC21573833009E986C /* SeguesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD1FDB21573833009E986C /* SeguesUITests.swift */; };
 		28FD1FEA21573913009E986C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD1FE921573913009E986C /* SecondViewController.swift */; };
+		28FD1FED2157C1E2009E986C /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD1FEC2157C1E2009E986C /* FirstScreen.swift */; };
+		28FD1FEF2157C1F8009E986C /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD1FEE2157C1F8009E986C /* SecondScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		28FD1FDB21573833009E986C /* SeguesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguesUITests.swift; sourceTree = "<group>"; };
 		28FD1FDD21573833009E986C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28FD1FE921573913009E986C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		28FD1FEC2157C1E2009E986C /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		28FD1FEE2157C1F8009E986C /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,11 @@
 		28FD1FBA21573830009E986C /* Segues */ = {
 			isa = PBXGroup;
 			children = (
+				28FD1FEB2157C1C3009E986C /* AnotherExample */,
 				28FD1FBB21573830009E986C /* AppDelegate.swift */,
 				28FD1FBD21573830009E986C /* ViewController.swift */,
-				28FD1FBF21573830009E986C /* Main.storyboard */,
 				28FD1FE921573913009E986C /* SecondViewController.swift */,
+				28FD1FBF21573830009E986C /* Main.storyboard */,
 				28FD1FC221573833009E986C /* Assets.xcassets */,
 				28FD1FC421573833009E986C /* LaunchScreen.storyboard */,
 				28FD1FC721573833009E986C /* Info.plist */,
@@ -126,6 +131,15 @@
 				28FD1FDD21573833009E986C /* Info.plist */,
 			);
 			path = SeguesUITests;
+			sourceTree = "<group>";
+		};
+		28FD1FEB2157C1C3009E986C /* AnotherExample */ = {
+			isa = PBXGroup;
+			children = (
+				28FD1FEC2157C1E2009E986C /* FirstScreen.swift */,
+				28FD1FEE2157C1F8009E986C /* SecondScreen.swift */,
+			);
+			path = AnotherExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FD1FED2157C1E2009E986C /* FirstScreen.swift in Sources */,
 				28FD1FEA21573913009E986C /* SecondViewController.swift in Sources */,
 				28FD1FBE21573830009E986C /* ViewController.swift in Sources */,
 				28FD1FBC21573830009E986C /* AppDelegate.swift in Sources */,
+				28FD1FEF2157C1F8009E986C /* SecondScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
